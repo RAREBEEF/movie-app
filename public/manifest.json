@@ -1,6 +1,6 @@
 {
-  "short_name": "cra template",
-  "name": "Clean cra template with some modules.",
+  "short_name": "Movie app",
+  "name": "Movie app",
   "icons": [
     {
       "src": "favicon.ico",
