@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+
+  .title {
+    text-align: center;
+    margin: {
+      top: 50px;
+      bottom: 50px;
+    }
+    padding: {
+      left: 20px;
+      right: 20px;
+    }
+    font: {
+      size: 50px;
+      weight: 900;
+    }
+  }
+  hr {
+    margin: {
+      left: 30px;
+      right: 30px;
+    }
+  }
+}

@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  .title {
+    text-align: center;
+    margin: {
+      top: 50px;
+      bottom: 50px;
+    }
+    padding: {
+      left: 20px;
+      right: 20px;
+    }
+    font: {
+      size: 50px;
+      weight: 900;
+    }
+  }
+  hr {
+    margin: {
+      left: 30px;
+      right: 30px;
+    }
+  }
+  .homebtn {
+    text-align: left;
+    color: black;
+    margin: {
+      left: 30px;
+      top: 20px;
+      bottom: 20px;
+    }
+    font: {
+      weight: 700;
+      size: 20px;
+    }
+  }
+  .poster {
+    max-width: 90vw;
+    margin: {
+      bottom: 30px;
+    }
+  }
+  .inform {
+    margin: {
+      bottom: 30px;
+    }
+    padding: {
+      left: 20px;
+      right: 20px;
+    }
+    font: {
+      weight: 700;
+      size: 20px;
+    }
+  }
+  .summary {
+    padding: {
+      left: 50px;
+      right: 50px;
+      bottom: 100px;
+    }
+    font: {
+      weight: 500;
+      size: 18px;
+    }
+  }
+}

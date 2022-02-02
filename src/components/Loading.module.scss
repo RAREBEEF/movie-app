@@ -1,0 +1,37 @@
+.loading {
+  position: relative;
+  animation: loading 1s linear infinite;
+  transform-origin: center;
+  @keyframes loading {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .outer-circle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -50px;
+    right: 0;
+    margin: auto;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .inner-circle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -55px;
+    right: 0;
+    margin: auto;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+}
