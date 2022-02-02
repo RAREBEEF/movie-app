@@ -8,10 +8,15 @@ function App() {
     <Router>
       <Routes>
         <Route
-          path={`${process.env.PUBLIC_URL}/movie/:id`}
+          basename={process.env.PUBLIC_URL}
+          path={`/movie/:id`}
           element={<Detail />}
         />
-        <Route path={`${process.env.PUBLIC_URL}/`} element={<Home />} />
+        <Route
+          basename={process.env.PUBLIC_URL}
+          path={`/`}
+          element={<Home />}
+        />
       </Routes>
     </Router>
   );
